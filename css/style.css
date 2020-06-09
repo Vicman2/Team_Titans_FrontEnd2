@@ -1,0 +1,144 @@
+body{
+    background: #151412
+}
+
+/* The nav session  */
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo_H{
+    font-size: 50px;
+    margin: 0;
+}
+.Logo_Compeletion{
+    display: flex;
+    flex-direction: column;
+}
+.Logo_Compeletion p{
+    margin: 1px 0;
+}
+.active_nav a{
+    color: #817554 !important;
+}
+
+.Navbar{
+    display: flex;
+    color: #ffff;
+    justify-content: space-between;
+    margin: auto 3rem;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.Navs{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.Nav_Item{
+    margin: auto 10px;
+}
+.Nav_Item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Image_and_Contact_form{
+    display: flex;
+}
+.Image_in_contact{
+    height: 450px;
+    width: 50%;
+}
+.Image_in_contact img{
+    height: 100%;
+    width: 100%;
+}
+
+/* The second session  */
+.contact_form{
+    margin-left: 20px;
+    color: #ffffff;
+    width: 50%;
+}
+.Reach_Out{
+    font-size: 25px;
+}
+.field_wrapper{
+font-family: 'Source Sans Pro';
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 100%;
+}
+.field_wrapper div{
+    font-size: 16px;
+    color: #A2A2A2;
+    margin-bottom: 12px;
+}
+.input{
+
+    background-color: inherit;
+    border: none;
+    border-bottom:  0.5px solid rgba(255, 255, 255, 0.67);
+    font-size: 18px;
+    color: #ffffff;
+    width: 95%;
+}
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom:  0.5px solid rgba(255, 255, 255, 0.67);
+}
+.ourButton{
+    background: #514525;
+    color: #ffffff;
+    border: none;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-family: 'Playfair Display';
+}
+.ourButton ion-icon{
+    vertical-align: middle;
+}
+.hotel_Contact_details{
+    padding: 10px 20px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.Contact_deHeading{
+    font-weight: normal;
+    font-size: 18px;
+}
+.de_Details{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+.Logo_H_Color{
+    color: #514525;
+    font-size: 50px;
+    margin: 0;
+}
+
+.Navbar_under{
+    margin-bottom: 5px !important;
+}
+.footer{
+    font-size: 16px;
+    font-family: 'Playfair Display';
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+}
+.socials ion-icon{
+    margin: auto 7px;
+}
